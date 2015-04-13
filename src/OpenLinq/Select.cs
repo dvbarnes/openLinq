@@ -12,7 +12,8 @@ namespace OpenLinq
 			if (selector == null) {
 				throw new ArgumentNullException ("selector");
 			}
-			return source.SelectMany(x=>Enumerable.Repeat(selector(x)));
+			int i = 0;
+			return source.SelectMany(x=>Enumerable.Repeat(selector(x,i++),1));
 		}
 		public static IEnumerable<TResult> Select<TSource, TResult> (this IEnumerable<TSource> source, Func<TSource, TResult> selector)
 		{
@@ -22,7 +23,7 @@ namespace OpenLinq
 			if (selector == null) {
 				throw new ArgumentNullException ("selector");
 			}
-			return source.SelectMany(x=>Enumerable.Repeat(selector(x)));
+			return source.SelectMany(x=>Enumerable.Repeat(selector(x),1));
 		}
 	}
 }

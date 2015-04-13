@@ -1,21 +1,20 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
 
 namespace OpenLinq
 {
 	public static partial class Enumerable
 	{
-		public static IEnumerable<TResult> Cast<TResult> (this IEnumerable source)
+		public static IEnumerable<TSource> Skip<TSource> (this IEnumerable<TSource> source, int count)
 		{
 			if (source == null) {
 				throw new ArgumentNullException ("source");
 			}
-			foreach (var item in source) {
-				yield return (TResult)item;
+			if (count <= 0) {
+				return source;
 			}
+			return SkipWhile (source, (c,idx)=>idx < count);
 		}
-
 	}
 }
 

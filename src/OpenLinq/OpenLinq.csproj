@@ -48,5 +48,10 @@
     <Compile Include="SelectMany.cs" />
     <Compile Include="Repeat.cs" />
     <Compile Include="Where.cs" />
+    <Compile Include="Sum.cs" />
+    <Compile Include="Skip.cs" />
+    <Compile Include="SkipWhile.cs" />
+    <Compile Include="Single.cs" />
+    <Compile Include="OfType.cs" />
   </ItemGroup>
 </Project>
