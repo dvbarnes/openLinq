@@ -1,1 +1,18 @@
-﻿<Properties StartupItem="OpenLinq/OpenLinq.csproj" />
+﻿<Properties StartupItem="OpenLinq.Tests/OpenLinq.Tests.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="OpenLinq.Tests/AllTests.cs">
+    <Files>
+      <File FileName="OpenLinq.Tests/AllTests.cs" Line="11" Column="52" />
+      <File FileName="OpenLinq/All.cs" Line="10" Column="17" NotebookId="1" />
+    </Files>
+    <Pads>
+      <Pad Id="MonoDevelop.NUnit.TestPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

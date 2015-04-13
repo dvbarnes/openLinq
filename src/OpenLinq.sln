@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenLinq", "OpenLinq\OpenLinq.csproj", "{81F4A4BC-000E-471B-80BB-C253A4437672}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenLinq.Tests", "OpenLinq.Tests\OpenLinq.Tests.csproj", "{B2F2E029-D961-4A2D-81EB-5E0D1B21CC29}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -13,5 +15,9 @@ Global
 		{81F4A4BC-000E-471B-80BB-C253A4437672}.Debug|x86.Build.0 = Debug|x86
 		{81F4A4BC-000E-471B-80BB-C253A4437672}.Release|x86.ActiveCfg = Release|x86
 		{81F4A4BC-000E-471B-80BB-C253A4437672}.Release|x86.Build.0 = Release|x86
+		{B2F2E029-D961-4A2D-81EB-5E0D1B21CC29}.Debug|x86.ActiveCfg = Debug|x86
+		{B2F2E029-D961-4A2D-81EB-5E0D1B21CC29}.Debug|x86.Build.0 = Debug|x86
+		{B2F2E029-D961-4A2D-81EB-5E0D1B21CC29}.Release|x86.ActiveCfg = Release|x86
+		{B2F2E029-D961-4A2D-81EB-5E0D1B21CC29}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 EndGlobal

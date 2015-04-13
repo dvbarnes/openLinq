@@ -3,10 +3,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{81F4A4BC-000E-471B-80BB-C253A4437672}</ProjectGuid>
+    <ProjectGuid>{B2F2E029-D961-4A2D-81EB-5E0D1B21CC29}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>OpenLinq</RootNamespace>
-    <AssemblyName>OpenLinq</AssemblyName>
+    <RootNamespace>OpenLinq.Tests</RootNamespace>
+    <AssemblyName>OpenLinq.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
@@ -31,22 +31,25 @@
   </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
-    <Compile Include="All.cs" />
-    <Compile Include="Any.cs" />
-    <Compile Include="AsEnumerable.cs" />
-    <Compile Include="Aggregate.cs" />
-    <Compile Include="Average.cs" />
-    <Compile Include="Cast.cs" />
-    <Compile Include="Contains.cs" />
-    <Compile Include="Count.cs" />
-    <Compile Include="DefaultIfEmpty.cs" />
-    <Compile Include="Distinct.cs" />
-    <Compile Include="ElementAt.cs" />
-    <Compile Include="ElementAtOrDefault.cs" />
-    <Compile Include="Empty.cs" />
-    <Compile Include="Select.cs" />
-    <Compile Include="SelectMany.cs" />
-    <Compile Include="Repeat.cs" />
-    <Compile Include="Where.cs" />
+    <Compile Include="AllTests.cs" />
+    <Compile Include="AnyTests.cs" />
+    <Compile Include="AggregateTests.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="NSubstitute">
+      <HintPath>..\packages\NSubstitute.1.8.1.0\lib\net45\NSubstitute.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>..\packages\NUnit.2.6.4\lib\nunit.framework.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OpenLinq\OpenLinq.csproj">
+      <Project>{81F4A4BC-000E-471B-80BB-C253A4437672}</Project>
+      <Name>OpenLinq</Name>
+    </ProjectReference>
   </ItemGroup>
 </Project>
