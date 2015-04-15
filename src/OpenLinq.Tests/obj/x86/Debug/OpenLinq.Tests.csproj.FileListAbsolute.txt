@@ -1,0 +1,11 @@
+C:\SourceCode\openLinq\src\OpenLinq.Tests\bin\Debug\OpenLinq.Tests.dll
+C:\SourceCode\openLinq\src\OpenLinq.Tests\bin\Debug\OpenLinq.Tests.pdb
+C:\SourceCode\openLinq\src\OpenLinq.Tests\bin\Debug\NSubstitute.dll
+C:\SourceCode\openLinq\src\OpenLinq.Tests\bin\Debug\nunit.framework.dll
+C:\SourceCode\openLinq\src\OpenLinq.Tests\bin\Debug\OpenLinq.dll
+C:\SourceCode\openLinq\src\OpenLinq.Tests\bin\Debug\OpenLinq.pdb
+C:\SourceCode\openLinq\src\OpenLinq.Tests\bin\Debug\NSubstitute.xml
+C:\SourceCode\openLinq\src\OpenLinq.Tests\bin\Debug\nunit.framework.xml
+C:\SourceCode\openLinq\src\OpenLinq.Tests\obj\x86\Debug\OpenLinq.Tests.csprojResolveAssemblyReference.cache
+C:\SourceCode\openLinq\src\OpenLinq.Tests\obj\x86\Debug\OpenLinq.Tests.dll
+C:\SourceCode\openLinq\src\OpenLinq.Tests\obj\x86\Debug\OpenLinq.Tests.pdb

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using NUnit.Framework;
 using NSubstitute;
 using System.Collections.Generic;

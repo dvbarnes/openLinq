@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -37,6 +37,7 @@
     <Compile Include="Aggregate.cs" />
     <Compile Include="Average.cs" />
     <Compile Include="Cast.cs" />
+    <Compile Include="Concat.cs" />
     <Compile Include="Contains.cs" />
     <Compile Include="Count.cs" />
     <Compile Include="DefaultIfEmpty.cs" />
@@ -44,6 +45,10 @@
     <Compile Include="ElementAt.cs" />
     <Compile Include="ElementAtOrDefault.cs" />
     <Compile Include="Empty.cs" />
+    <Compile Include="Except.cs" />
+    <Compile Include="First.cs" />
+    <Compile Include="FirstOrDefault.cs" />
+    <Compile Include="GroupBy.cs" />
     <Compile Include="Select.cs" />
     <Compile Include="SelectMany.cs" />
     <Compile Include="Repeat.cs" />
@@ -53,5 +58,8 @@
     <Compile Include="SkipWhile.cs" />
     <Compile Include="Single.cs" />
     <Compile Include="OfType.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
   </ItemGroup>
 </Project>

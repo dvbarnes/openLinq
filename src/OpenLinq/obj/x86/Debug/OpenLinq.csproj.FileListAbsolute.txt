@@ -1,0 +1,4 @@
+C:\SourceCode\openLinq\src\OpenLinq\bin\Debug\OpenLinq.dll
+C:\SourceCode\openLinq\src\OpenLinq\bin\Debug\OpenLinq.pdb
+C:\SourceCode\openLinq\src\OpenLinq\obj\x86\Debug\OpenLinq.dll
+C:\SourceCode\openLinq\src\OpenLinq\obj\x86\Debug\OpenLinq.pdb
