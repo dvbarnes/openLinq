@@ -1,4 +1,4 @@
 language: csharp
-solution: OpenLinq.sln
+solution: src/OpenLinq.sln
 install:
-  - nuget restore OpenLinq.sln
+  - nuget restore src/OpenLinq.sln
